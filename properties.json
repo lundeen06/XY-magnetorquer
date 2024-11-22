@@ -1,0 +1,30 @@
+{
+    "resistance": {
+        "value": "1.62e+01",
+        "units": "ohms"
+    },
+    "voltage_max": {
+        "value": "8.20e+00",
+        "units": "V"
+    },
+    "current_max": {
+        "value": "5.06e-01",
+        "units": "A"
+    },
+    "power_max": {
+        "value": "4.15e+00",
+        "units": "W"
+    },
+    "resistivity": {
+        "value": "3.93e-03",
+        "units": "ohms*m"
+    },
+    "temperature_ref": {
+        "value": "2.34e+01",
+        "units": "C"
+    },
+    "magnetic_moment": {
+        "value": "2.19e-01",
+        "units": "Am^2"
+    }
+}
