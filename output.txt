@@ -1,0 +1,40 @@
+
+Ambient Magnetic Field Analysis:
+Magnitude: 24.95 μT
+Components: X=22.72 μT, Y=-4.43 μT, Z=-8.62 μT
+Direction: Azimuth=-11.0°, Elevation=-20.4° 
+
+Processed ./data/magnetic-field/I10-1.csv: distance=10cm, net_field=33.83μT, magnetic_moment=0.17Am^2
+Processed ./data/magnetic-field/I10-2.csv: distance=10cm, net_field=56.15μT, magnetic_moment=0.28Am^2
+Processed ./data/magnetic-field/I5-1.csv: distance=5cm, net_field=246.78μT, magnetic_moment=0.15Am^2
+Processed ./data/magnetic-field/I5-2.csv: distance=5cm, net_field=209.92μT, magnetic_moment=0.13Am^2
+Processed ./data/magnetic-field/O10-1.csv: distance=10cm, net_field=66.58μT, magnetic_moment=0.33Am^2
+Processed ./data/magnetic-field/O5-2.csv: distance=5cm, net_field=270.28μT, magnetic_moment=0.17Am^2
+Processed ./data/magnetic-field/O10-2.csv: distance=10cm, net_field=74.92μT, magnetic_moment=0.37Am^2
+Processed ./data/magnetic-field/O5-1.csv: distance=5cm, net_field=219.52μT, magnetic_moment=0.14Am^2
+
+Analysis complete!
+Average magnetic moment: 2.19e-01 A·m²
+Results saved to properties.json
+Fitted thermal parameters:
+Final temperature: 42.23°C
+Time constant: 324.4 seconds
+Fitted temperature coefficient (alpha): 0.003930 /°C
+
+Projected Values at 1 hour:
+Temperature: 42.2°C
+Resistance: 17.615Ω
+Current: 0.466A
+Magnetic Moment: 2.011e-01Am²
+
+Values at Temperature Extremes:
+
+At -50°C:
+Resistance: 11.743Ω
+Current: 0.698A
+Magnetic Moment: 3.016e-01Am²
+
+At 150°C:
+Resistance: 24.477Ω
+Current: 0.335A
+Magnetic Moment: 1.447e-01Am²

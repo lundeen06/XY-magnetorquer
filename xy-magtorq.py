@@ -135,6 +135,20 @@ class XY_Magtorq():
         # Load ambient field data
         ambient_df = load_and_process_csv('./data/magnetic-field/ambient-field.csv')
         ambient_field = calculate_average_field(ambient_df)
+
+        # Calculate ambient field direction
+        ambient_mean_x = ambient_df['M_x(µT)'].mean()
+        ambient_mean_y = ambient_df['M_y(µT)'].mean()
+        ambient_mean_z = ambient_df['M_z(µT)'].mean()
+
+        # Calculate spherical coordinates (azimuth and elevation)
+        azimuth = np.arctan2(ambient_mean_y, ambient_mean_x) * 180 / np.pi
+        elevation = np.arctan2(ambient_mean_z, np.sqrt(ambient_mean_x**2 + ambient_mean_y**2)) * 180 / np.pi
+
+        print(f"\nAmbient Magnetic Field Analysis:")
+        print(f"Magnitude: {ambient_field:.2f} μT")
+        print(f"Components: X={ambient_mean_x:.2f} μT, Y={ambient_mean_y:.2f} μT, Z={ambient_mean_z:.2f} μT")
+        print(f"Direction: Azimuth={azimuth:.1f}°, Elevation={elevation:.1f}° \n")
         
         # Process all measurement files
         distances = []
