@@ -1,9 +1,28 @@
 # Magnetorquer XY Board Characterization Analysis
 
-![XY Magnetorquer Board](assets/xy-magtorq.png)
+<img src="assets/xy-magtorq.png" width="600" alt="XY Magnetorquer Board"/> \
 The XY Magnetorquer board featuring coil traces (red) with cutouts for star tracker, PyCubed access, flex-board camera deployment, and flex hinges.
 
-## Analysis Overview
+## Key Properties
+### Electrical & Magnetic
+| Property | Value | Units |
+|----------|--------|-------|
+| Resistance | 16.2 | Ω |
+| Maximum Current | 0.506 | A |
+| Maximum Power | 4.15 | W |
+| Resistivity | 3.93 × 10⁻³ | Ω·m |
+| Magnetic Moment | 0.219 | A·m² |
+
+
+While testing at...
+| Property | Value | Units |
+|----------|--------|-------|
+| Reference Temperature | 23.4 | °C |
+| Maximum Voltage | 8.20 | V |
+### Thermals
+<img src="assets/thermals.png" width="800" alt="thermals"/> \
+
+## Analysis Methodology
 
 This repository contains the analysis code for characterizing the XY Magnetorquer board's electrical, magnetic, and thermal properties. The analysis characterizes three key domains:
 
