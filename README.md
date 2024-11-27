@@ -1,6 +1,6 @@
 # Magnetorquer XY Board Characterization Analysis
 
-<img src="assets/xy-magtorq.png" width="600" alt="XY Magnetorquer Board"/> \
+<img src="assets/xy-magtorq.png" width="800" alt="XY Magnetorquer Board"/> \
 The XY Magnetorquer board featuring coil traces (red) with cutouts for star tracker, PyCubed access, flex-board camera deployment, and flex hinges.
 
 ## Key Properties
